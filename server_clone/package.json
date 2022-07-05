@@ -1,0 +1,24 @@
+{
+  "name": "instaclone",
+  "version": "1.0.0",
+  "description": "Una recreacion de instagram para practicar",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon ./index.js"
+  },
+  "author": "Andreu Anglada",
+  "license": "ISC",
+  "dependencies": {
+    "apollo-server-express": "^3.9.0",
+    "aws-sdk": "^2.1167.0",
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "graphql-upload": "^15.0.2",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.4.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.18"
+  }
+}
